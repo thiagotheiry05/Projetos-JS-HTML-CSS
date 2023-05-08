@@ -1,0 +1,59 @@
+.calculator {
+    width: 200px;
+    height: 350px;
+    margin: auto auto;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.visor{
+   width: 90%;
+   height: 10px;
+   background-color: black;
+   margin: 50px auto;
+   border-radius: 5px; 
+   font-size: 40px;
+   text-align: right;
+   color: white;
+}
+
+button{
+    font-size: large;
+    background-color: rgb(240, 233, 233);
+    border-radius: 25px; 
+    padding: 10px;
+    margin: 1px;
+    cursor: pointer;
+}
+
+button:active{
+    background: white;
+    color: orange
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.botao-laranja {
+    background: orange;
+    color: white;
+}
+
+.botao-cinza{
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+.botao-cinza-claro{
+    background-color: rgb(235, 225, 225);
+    color: black
+}
+
+.botao-largo{
+    grid-column: span 2;
+}
+
